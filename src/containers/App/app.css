@@ -1,0 +1,15 @@
+.header {
+  position: fixed !important;
+}
+
+.header-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}
+
+.block-body-content {
+  padding: 60px 10px 10px 10px;
+  position: relative;
+}

@@ -1,0 +1,17 @@
+{
+  "lessonId": 1,
+  "words": [
+    {
+      "id": 1,
+      "wordLabel": {
+        "en": "abide by",
+        "vn": ""
+      },
+      "type": "v",
+      "description": {
+        "en": "",
+        "vn": ""
+      }
+    }
+  ]
+}

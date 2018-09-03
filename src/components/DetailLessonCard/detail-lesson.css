@@ -1,0 +1,32 @@
+.block-detail-lesson {
+  display: flex;
+  justify-content: center;
+}
+
+.block-detail-lesson-card {
+  width: 100%
+}
+
+.block-detail-lesson-card-title {
+  color: aliceblue !important;
+  width: 100%;
+}
+
+.block-card-media-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.85;
+  align-items: center;
+  display: flex;
+}
+
+.card-media {
+  height: 300px;
+  width: 100%;
+  background-position: top !important;
+  position: relative;
+}
