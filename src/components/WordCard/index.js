@@ -6,7 +6,8 @@ import Chip from '@material-ui/core/Chip';
 import IconButton from '@material-ui/core/IconButton';
 import VolumnUp from '@material-ui/icons/VolumeUpRounded';
 import Switch from '@material-ui/core/Switch';
-import Zoom from '@material-ui/core/Zoom';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 
 import './word-card.css'
 
@@ -41,36 +42,36 @@ class WordCard extends Component {
               {word.phonetic}
             </Typography>
           </div>
-          {
-            isTranslated ? <Zoom in={true}>
-              <Typography variant="subheading" className="block-word-content-translated" gutterBottom>
+          <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
+            <ExpansionPanelDetails className="block-word-content-translated-details">
+              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
                 {'('}{
                   translated.labels.map((element, index) => index === 0 ? `${element}` : `, ${element}`)
                 }{')'}
               </Typography>
-            </Zoom> : null
-          }
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
           <Typography variant="subheading" gutterBottom>
             {`- ${word.description}.`}
           </Typography>
-          {
-            isTranslated ? <Zoom in={true}>
-              <Typography variant="subheading" className="block-word-content-translated" gutterBottom>
+          <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
+            <ExpansionPanelDetails className="block-word-content-translated-details">
+              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
                 {`(${translated.description})`}
               </Typography>
-            </Zoom> : null
-          }
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
           <Typography variant="subheading" gutterBottom>
             <span className="block-word-content-example-subject">{'Example:'}</span>
             {` ${word.example}.`}
           </Typography>
-          {
-            isTranslated ? <Zoom in={true}>
-              <Typography variant="subheading" className="block-word-content-translated" gutterBottom>
+          <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
+            <ExpansionPanelDetails className="block-word-content-translated-details">
+              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
                 {`(${translated.example})`}
               </Typography>
-            </Zoom> : null
-          }
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
         </div>
       </div>
     );

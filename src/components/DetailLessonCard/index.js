@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import Zoom from '@material-ui/core/Zoom';
+import Grow from '@material-ui/core/Grow';
 
 import './detail-lesson.css';
 
@@ -14,7 +14,7 @@ class DetailLessonCard extends Component {
     const { lesson, children } = this.props;
     return (
       <div className="block-detail-lesson">
-        <Zoom in={true}>
+        <Grow in={true} timeout={1000}>
           <Grid item xs={12} sm={12} md={10} lg={8}>
             <Grid container justify="center">
               <Card elevation={4} className="block-detail-lesson-card">
@@ -35,7 +35,7 @@ class DetailLessonCard extends Component {
               </Card>
             </Grid>
           </Grid>
-        </Zoom>
+        </Grow>
       </div>
     );
   }

@@ -23,7 +23,27 @@
 }
 
 .block-word-content-translated {
+  box-shadow: unset !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+}
+
+.block-word-content-translated::before {
+  background-color: transparent !important;
+}
+
+.block-word-content-translated-details {
+  box-shadow: unset !important;
+  padding: 0 !important;
+}
+
+
+.block-word-content-translated-text {
   color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.block-word-content-translated-hidden {
+  color: transparent !important;
 }
 
 .block-word-sound {
