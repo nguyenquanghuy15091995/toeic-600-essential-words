@@ -1,5 +1,13 @@
 .header {
   position: fixed !important;
+  justify-content: center !important;
+  flex-direction: unset !important;
+}
+
+.block-header-content {
+  width: 100%;
+  max-width: 1920px !important;
+  position: relative;
 }
 
 .header-title {
@@ -10,6 +18,22 @@
 }
 
 .block-body-content {
-  padding: 60px 10px 10px 10px;
+  box-sizing: border-box;
+  padding: 60px 24px 10px 24px;
   position: relative;
+  max-width: 1920px !important;
+  margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .block-body-content {
+    padding: 60px 10px 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .block-body-content {
+    padding: 60px 15px 10px 15px;
+  }
+}
+

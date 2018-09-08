@@ -1,6 +1,6 @@
 .block-footer {
   padding: 0px 30px 60px 30px;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .block-footer-devider {
@@ -9,6 +9,8 @@
 
 .block-footer-content {
   padding: 0px 10px;
+  max-width: 1920px !important;
+  margin: 0 auto;
 }
 
 .block-footer-content-link {

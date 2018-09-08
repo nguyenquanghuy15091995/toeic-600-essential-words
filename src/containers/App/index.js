@@ -4,7 +4,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import deepPurple from '@material-ui/core/colors/deepPurple';
-import deepOrange from '@material-ui/core/colors/deepOrange';
+// import deepOrange from '@material-ui/core/colors/deepOrange';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -21,7 +21,11 @@ import './app.css';
 const theme = createMuiTheme({
   palette: {
     primary: { main: deepPurple[700] },
-    secondary: deepOrange,
+    secondary: {
+      main: '#ff5722',
+      light: '#ff6333',
+      dark: '#ff3d00',
+    }
   },
 });
 
@@ -32,9 +36,11 @@ class App extends PureComponent {
     return (
       <MuiThemeProvider theme={theme}>
         <AppBar position="static" className="header">
+        <div className="block-header-content">
           <Toolbar variant="dense">
             <Typography variant="title" color="inherit" className="header-title">600 ESSENTIAL WORDS</Typography>
           </Toolbar>
+          </div>
         </AppBar>
         <div className="block-body-content">
           <Switch>

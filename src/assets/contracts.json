@@ -3,14 +3,41 @@
   "words": [
     {
       "id": 1,
-      "wordLabel": {
-        "en": "abide by",
-        "vn": ""
-      },
+      "label": "abide by",
+      "phonetic": "/ə'baid/",
       "type": "v",
-      "description": {
-        "en": "",
-        "vn": ""
+      "description": "to accept and act according to a law, an agreement",
+      "example": "The two parties agreed to abide by the judge's decision",
+      "translated": {
+        "labels": ["tôn trọng", "tuân theo", "chấp hành"],
+        "description": "chấp nhận và hành động theo luật, một hợp đồng",
+        "example": "Hai bên đã đồng ý tuân theo quyết định của tòa án"
+      }
+    },
+    {
+      "id": 2,
+      "label": "agreement",
+      "phonetic": "/ə'gri:mənt/",
+      "type": "n",
+      "description": "an arrangement, a promise or a contract made with somebody",
+      "example": "According to the agreement, the caterer will also supply the flowers for the event",
+      "translated": {
+        "labels": ["hợp đồng", "giao kèo", "sự đồng ý/thỏa thuận với nhau"],
+        "description": "một sự sắp xếp, một lời hứa hoặc một hợp đồng được thực hiện với ai đó",
+        "example": "Theo như thỏa thuận, nhà cung cấp lương thực thực phẩm cũng sẽ cung cấp hoa cho sự kiện"
+      }
+    },
+    {
+      "id": 3,
+      "label": "assurance",
+      "phonetic": "/ə'ʃuərəns/",
+      "type": "n",
+      "description": "a statement that something will certainly be true or will certainly happen",
+      "example": "The sales associate gave his assurance that the missing keyboard would be replaced the next day",
+      "translated": {
+        "labels": ["sự cam đoan", "bảo đảm", "chắc chắn", "sự tin chắc"],
+        "description": "một tuyên bố rằng điều gì đó chắc chắn sẽ đúng hoặc chắc chắn sẽ xảy ra",
+        "example": "Đối tác bán hàng cam đoan rằng ngày mai bàn phím lỗi sẽ được thay"
       }
     }
   ]

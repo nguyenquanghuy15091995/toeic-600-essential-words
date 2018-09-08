@@ -1,0 +1,43 @@
+.block-word {
+  position: relative;
+  padding: 10px 0px;
+}
+
+.block-word-chip-title {
+  border-radius: 5px !important;
+  height: 40px !important;
+  background: transparent !important;
+}
+
+.block-word-chip-title-content {
+  min-width: 100px !important;
+}
+
+.block-word-chip-avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.block-word-content {
+  padding: 5px 0px 0px 5%;
+}
+
+.block-word-content-translated {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.block-word-sound {
+  display: flex;
+  align-items: center;
+}
+
+.block-word-content-example-subject {
+  font-weight: 550;
+}
+
+.block-word-translate-toggle {
+  position: absolute;
+  display: inline;
+  right: 0;
+  top: 2.2%;
+}

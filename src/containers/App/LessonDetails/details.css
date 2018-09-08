@@ -1,0 +1,13 @@
+.block.lesson-detail-divider {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.block-lesson-details-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0px;
+}
+
+.block-lesson-details-toggle-master {
+  margin: 0 !important;
+}
