@@ -4,7 +4,7 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
-import DetailLessonCard from '../../../components/DetailLessonCard';
+import LessonDetailsCard from '../../../components/LessonDetailsCard';
 import WordCard from '../../../components/WordCard';
 
 import './details.css';
@@ -46,7 +46,7 @@ class LessonDetails extends PureComponent {
     const { lesson } = this.props;
     const { translatedToggles, masterToggle } = this.state;
     return (
-      <DetailLessonCard
+      <LessonDetailsCard
         lesson={{
           image: lesson.image,
           topic: lesson.topic,
@@ -74,7 +74,7 @@ class LessonDetails extends PureComponent {
             </span>
           ))
         }
-      </DetailLessonCard>
+      </LessonDetailsCard>
     );
   }
 }

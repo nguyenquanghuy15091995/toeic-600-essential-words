@@ -9,7 +9,7 @@ import Grow from '@material-ui/core/Grow';
 
 import './detail-lesson.css';
 
-class DetailLessonCard extends Component {
+class LessonDetailsCard extends Component {
   render() {
     const { lesson, children } = this.props;
     return (
@@ -41,4 +41,4 @@ class DetailLessonCard extends Component {
   }
 }
 
-export default DetailLessonCard;
+export default LessonDetailsCard;
