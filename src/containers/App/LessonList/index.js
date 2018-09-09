@@ -11,7 +11,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { TOPIC_CLASSIFICATIONS } from '../constants';
 import LessonCard from '../../../components/LessonCard';
 import * as lessonListActions from './actions';
-import './lesson-list.css';
 
 class LessonList extends PureComponent {
   render() {

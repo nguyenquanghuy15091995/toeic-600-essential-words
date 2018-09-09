@@ -7,8 +7,6 @@ import Switch from '@material-ui/core/Switch';
 import LessonDetailsCard from '../../../components/LessonDetailsCard';
 import WordCard from '../../../components/WordCard';
 
-import './details.css';
-
 class LessonDetails extends PureComponent {
   constructor(props) {
     super(props);
@@ -53,23 +51,22 @@ class LessonDetails extends PureComponent {
         }}
       >
         <div className="block-lesson-details-toolbar">
-        <FormControlLabel
-          control={
-            <Switch
-            checked={masterToggle}
-              onChange={this.handleAllWordChange}
-            />
-          }
-          label={<Typography variant="body2">{'Translate All'}</Typography>}
-          labelPlacement="start"
-          className="block-lesson-details-toggle-master"
-        />
-         
+          <FormControlLabel
+            control={
+              <Switch
+                checked={masterToggle}
+                onChange={this.handleAllWordChange}
+              />
+            }
+            label={<Typography variant="body2">{'Translate All'}</Typography>}
+            labelPlacement="start"
+            className="block-lesson-details-toggle-master"
+          />
         </div>
         {
           lesson.words.map((word, index) => (
             <span key={word.id}>
-              <Divider />
+              <Divider className="block-lesson-details-divider" />
               <WordCard word={word} positionCount={index} isTranslated={translatedToggles[index]} handleWordTranslate={this.handleWordTranslate} />
             </span>
           ))

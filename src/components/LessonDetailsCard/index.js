@@ -7,24 +7,27 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Grow from '@material-ui/core/Grow';
 
-import './detail-lesson.css';
-
 class LessonDetailsCard extends Component {
   render() {
     const { lesson, children } = this.props;
     return (
-      <div className="block-detail-lesson">
+      <div className="block-lesson-details-card-grid">
         <Grow in={true} timeout={1000}>
           <Grid item xs={12} sm={12} md={10} lg={8}>
             <Grid container justify="center">
-              <Card elevation={4} className="block-detail-lesson-card">
+              <Card elevation={4} className="block-lesson-details-card">
                 <CardMedia
-                  className="card-media"
+                  className="block-lesson-details-card-media"
                   image={lesson.image}
                   title={lesson.topic}
                 >
-                  <div className="block-card-media-content">
-                    <Typography variant="display2" align="center" component="h2" className="block-detail-lesson-card-title">
+                  <div className="block-lesson-details-card-media-content">
+                    <Typography
+                      variant="display2"
+                      align="center"
+                      component="h2"
+                      className="block-lesson-details-card-media-content-title"
+                    >
                       {lesson.topic.toUpperCase()}
                     </Typography>
                   </div>

@@ -7,7 +7,7 @@ import configureStore from './configureStore';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import './index.css';
+import './styles';
 
 const store = configureStore();
 

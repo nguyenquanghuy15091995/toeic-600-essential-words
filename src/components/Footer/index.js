@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 
-import './footer.css';
-
 class Footer extends Component {
   render() {
     return (

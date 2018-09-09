@@ -1,0 +1,99 @@
+/*
+ * lesson details.
+ */
+
+.block-lesson-details-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0px;
+  .block-lesson-details-toggle-master {
+    margin: 0 !important;
+  }
+  .block-lesson-details-divider {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+}
+
+/*
+ * lesson details card.
+ */
+
+.block-lesson-details-card-grid {
+  display: flex;
+  justify-content: center;
+  .block-lesson-details-card {
+    width: 100%;
+    .block-lesson-details-card-media {
+      height: 300px;
+      width: 100%;
+      background-position: top !important;
+      position: relative;
+      .block-lesson-details-card-media-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+        opacity: 0.85;
+        align-items: center;
+        display: flex;
+        .block-lesson-details-card-media-content-title {
+          color: aliceblue !important;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * word card content.
+ */
+
+.block-word {
+  position: relative;
+  padding: 10px 0px;
+  .block-word-chip {
+    border-radius: 5px !important;
+    height: 40px !important;
+    .block-word-chip-avatar {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    background: transparent !important;
+    .block-word-chip-title-content {
+      min-width: 100px !important;
+    }
+  }
+  .block-word-translate-toggle {
+    position: absolute;
+    display: inline;
+    right: 0;
+    top: 2.2%;
+  }
+  .block-word-content {
+    .block-word-content-sound {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .block-word-content-translated {
+    box-shadow: unset !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+    .block-word-content-translated-details {
+      box-shadow: unset !important;
+      padding: 0 !important;
+      .block-word-content-translated-details-text {
+        color: rgba(0, 0, 0, 0.54) !important;
+      }
+    }
+    &::before {
+      background-color: transparent !important;
+    }
+  }
+  .block-word-content-example-subject {
+    font-weight: 550;
+  }
+}

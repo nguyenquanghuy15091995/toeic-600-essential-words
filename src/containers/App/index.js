@@ -16,8 +16,6 @@ import LessonDetails from './LessonDetails';
 
 import Footer from '../../components/Footer';
 
-import './app.css';
-
 const theme = createMuiTheme({
   palette: {
     primary: { main: deepPurple[700] },
@@ -35,10 +33,10 @@ class App extends PureComponent {
     const { appInfo } = this.props;
     return (
       <MuiThemeProvider theme={theme}>
-        <AppBar position="static" className="header">
+        <AppBar position="static" className="block-header">
         <div className="block-header-content">
           <Toolbar variant="dense">
-            <Typography variant="title" color="inherit" className="header-title">600 ESSENTIAL WORDS</Typography>
+            <Typography variant="title" color="inherit" className="block-header-content-title">600 ESSENTIAL WORDS</Typography>
           </Toolbar>
           </div>
         </AppBar>

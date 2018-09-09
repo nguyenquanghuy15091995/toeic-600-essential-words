@@ -9,8 +9,6 @@ import Switch from '@material-ui/core/Switch';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 
-import './word-card.css'
-
 class WordCard extends Component {
   render() {
     const { word, positionCount, isTranslated, handleWordTranslate } = this.props;
@@ -24,7 +22,7 @@ class WordCard extends Component {
             </Avatar>
           }
           label={<Typography variant="title" className="block-word-chip-title-content">{`${word.label} (${word.type})`}</Typography>}
-          className="block-word-chip-title"
+          className="block-word-chip"
           color="secondary"
         />
         <div className="block-word-translate-toggle">
@@ -34,7 +32,7 @@ class WordCard extends Component {
           />
         </div>
         <div className="block-word-content">
-          <div className="block-word-sound">
+          <div className="block-word-content-sound">
             <IconButton aria-label="Delete">
               <VolumnUp />
             </IconButton>
@@ -44,7 +42,7 @@ class WordCard extends Component {
           </div>
           <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
             <ExpansionPanelDetails className="block-word-content-translated-details">
-              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
+              <Typography variant="subheading" className="block-word-content-translated-details-text" gutterBottom>
                 {'('}{
                   translated.labels.map((element, index) => index === 0 ? `${element}` : `, ${element}`)
                 }{')'}
@@ -56,7 +54,7 @@ class WordCard extends Component {
           </Typography>
           <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
             <ExpansionPanelDetails className="block-word-content-translated-details">
-              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
+              <Typography variant="subheading" className="block-word-content-translated-details-text" gutterBottom>
                 {`(${translated.description})`}
               </Typography>
             </ExpansionPanelDetails>
@@ -67,7 +65,7 @@ class WordCard extends Component {
           </Typography>
           <ExpansionPanel expanded={isTranslated} className="block-word-content-translated">
             <ExpansionPanelDetails className="block-word-content-translated-details">
-              <Typography variant="subheading" className="block-word-content-translated-text" gutterBottom>
+              <Typography variant="subheading" className="block-word-content-translated-details-text" gutterBottom>
                 {`(${translated.example})`}
               </Typography>
             </ExpansionPanelDetails>

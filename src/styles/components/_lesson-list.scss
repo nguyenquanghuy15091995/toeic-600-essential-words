@@ -1,0 +1,56 @@
+/*
+ * lesson list.
+ */
+
+.block-lesson-list {
+  .block-topic-area {
+    margin: 10px 0px;
+  }
+  .block-expansion {
+    box-shadow: none !important;
+    .block-expansion-summary {
+      padding: 0 24px 0 10px !important;
+      .block-expansion-summary-text {
+        &:hover {
+          color: inherit !important;
+        }
+      }
+      &:hover {
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        border-radius: 5px;
+      }
+    }
+    .block-expansion-details {
+      display: block !important;
+      padding: 0 !important;
+    }
+  }
+}
+
+/*
+ * lesson card view.
+ */
+
+.block-lesson-card-grid {
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  .block-lesson-card {
+    width: 100%;
+    .block-lesson-card-media {
+      height: 200px;
+      width: 100%;
+    }
+    .block-lesson-card-content {
+      .block-lesson-card-content-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-grow: 1;
+      }
+    }
+    .block-lesson-card-action {
+      justify-content: flex-end;
+    }
+  }
+}
