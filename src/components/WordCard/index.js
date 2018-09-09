@@ -33,7 +33,7 @@ class WordCard extends Component {
         </div>
         <div className="block-word-content">
           <div className="block-word-content-sound">
-            <IconButton aria-label="Delete">
+            <IconButton aria-label="Delete" className="block-word-content-sound-button">
               <VolumnUp />
             </IconButton>
             <Typography variant="subheading">

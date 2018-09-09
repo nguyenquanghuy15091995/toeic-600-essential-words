@@ -39,6 +39,123 @@
         "description": "một tuyên bố rằng điều gì đó chắc chắn sẽ đúng hoặc chắc chắn sẽ xảy ra",
         "example": "Đối tác bán hàng cam đoan rằng ngày mai bàn phím lỗi sẽ được thay"
       }
+    },
+    {
+      "id": 4,
+      "label": "cancellation",
+      "phonetic": "/,kænse'leiʃn/",
+      "type": "n",
+      "description": "a decision to stop something that has already been arranged from happening",
+      "example": "The cancelation of her flight caused her problems for the rest of the week",
+      "translated": {
+        "labels": ["sự bãi bỏ", "hủy bỏ"],
+        "description": "một quyết định ngừng cái gì đó đã được sắp xếp từ việc đang xảy ra",
+        "example": "Việc hủy chuyến bay đã gây cho cô ấy nhiều vấn đề trong những ngày còn lại của tuần"
+      }
+    },
+    {
+      "id": 5,
+      "label": "determine",
+      "phonetic": "/di'tə:min/",
+      "type": "v",
+      "description": "to control or influence something directly, or to decide what will happen",
+      "example": "After reading the contract, I was still unable to detemine if our company was liable for back wages",
+      "translated": {
+        "labels": ["quyết định", "xác định", "định rõ", "quyết tâm", "kiên quyết"],
+        "description": "để kiểm soát hoặc ảnh hưởng trực tiếp đến điều gì đó hoặc để quyết định điều gì sẽ xảy ra",
+        "example": "Sau khi đọc hợp đồng, tôi vẫn không thể biết được liệu rằng công ty của chúng tôi có phải chịu trách nhiệm hoàn trả lại lương không"
+      }
+    },
+    {
+      "id": 6,
+      "label": "engage",
+      "phonetic": "/in'geidʤ/",
+      "type": "v",
+      "description": "involve, participate",
+      "example": "He engaged us in a fascinating discussion about current business law",
+      "translated": {
+        "labels": ["tham gia", "cam kết", "sự hứa hẹn, hứa hôn (n)"],
+        "description": "tham gia",
+        "example": "Anh ấy cùng chúng tôi thảo luận sôi nổi về luật kinh doanh hiện hành"
+      }
+    },
+    {
+      "id": 7,
+      "label": "establish",
+      "phonetic": "/is'tæbliʃ/",
+      "type": "v",
+      "description": "to start or create an organization, a system",
+      "example": "The merger of the two company established a powerful new corporation",
+      "translated": {
+        "labels": ["thiết lập", "xác lập", "thành lập", "tạo nên"],
+        "description": "bắt đầu hoặc tạo một tổ chức, một hệ thống",
+        "example": "Sự liên kết giữa 2 công ty tạo nên một tập đoàn kinh tế hùng mạnh"
+      }
+    },
+    {
+      "id": 8,
+      "label": "obligate",
+      "phonetic": "/'ɔbligeit/",
+      "type": "v",
+      "description": "to bind legally or morally",
+      "example": "The contractor was obligated by the contract to work 40 hours a week",
+      "translated": {
+        "labels": ["bắt buộc", "ép buộc"],
+        "description": "ràng buộc về mặt pháp lý hoặc đạo đức",
+        "example": "Nhà thầu buộc phải làm việc 40 tiếng mỗi tuần"
+      }
+    },
+    {
+      "id": 9,
+      "label": "party",
+      "phonetic": "/'pɑ:ti/",
+      "type": "v",
+      "description": "one of the people or groups of people involved in a legal agreement",
+      "example": "The parties agreed to settlement in their contract dispute",
+      "translated": {
+        "labels": ["đảng", "phái", "đội", "nhóm", "người tham dự/tham gia", "buổi liên hoan", "buổi tiệc"],
+        "description": "một trong những người hoặc nhóm người tham gia vào thỏa thuận pháp lý",
+        "example": "Các bên đã nhất trí đi đến một thỏa thuận trong hợp đồng gây tranh cãi của họ"
+      }
+    },
+    {
+      "id": 10,
+      "label": "provision",
+      "phonetic": "/prəˈvɪʒ.ən/",
+      "type": "v",
+      "description": "a condition or an arrangement in a legal document",
+      "example": "The father made provision for his children through his will",
+      "translated": {
+        "labels": ["sự dự liệu", "dự trữ", "dự phòng", "cung cấp", "điều khoản"],
+        "description": "một điều kiện hoặc một sự sắp xếp trong tài liệu pháp lý",
+        "example": "Người cha đã truyền lại di chúc cho những đứa con của mình"
+      }
+    },
+    {
+      "id": 11,
+      "label": "resolve",
+      "phonetic": "/ri'zɔlv/",
+      "type": "v",
+      "description": "to find an acceptable solution to a problem",
+      "example": "The manager resolved to clean out all the files at the end of the week",
+      "translated": {
+        "labels": ["giải quyết", "(n) sự kiên quyết / sự tin chắc"],
+        "description": "tìm một giải pháp có thể chấp nhận được cho một vấn đề",
+        "example": "Cuối tuần, người quản lý đã quyết định xóa sạch tất cả các dữ liệu"
+      }
+    },
+    {
+      "id": 12,
+      "label": "specific",
+      "phonetic": "/spəˈsɪf.ɪk/",
+      "type": "adj",
+      "description": "detailed and exact",
+      "example": "The customer's specific complaint was not addressed in his e-mail",
+      "translated": {
+        "labels": ["riêng biệt", "cụ thể", "đặc trưng", "rõ ràng", "rành mạch"],
+        "description": "chi tiết và chính xác",
+        "example": "Khiếu nại cụ thể của khách hàng đã không được giải quyết trong Email gửi anh ấy"
+      }
     }
   ]
 }

@@ -76,24 +76,29 @@
     .block-word-content-sound {
       display: flex;
       align-items: center;
-    }
-  }
-  .block-word-content-translated {
-    box-shadow: unset !important;
-    background-color: transparent !important;
-    margin: 0 !important;
-    .block-word-content-translated-details {
-      box-shadow: unset !important;
-      padding: 0 !important;
-      .block-word-content-translated-details-text {
-        color: rgba(0, 0, 0, 0.54) !important;
+      .block-word-content-sound-button {
+        &:hover {
+          background-color: transparent !important;
+        }
       }
     }
-    &::before {
+    .block-word-content-translated {
+      box-shadow: unset !important;
       background-color: transparent !important;
+      margin: 0 !important;
+      .block-word-content-translated-details {
+        box-shadow: unset !important;
+        padding: 0 !important;
+        .block-word-content-translated-details-text {
+          color: rgba(0, 0, 0, 0.54) !important;
+        }
+      }
+      &::before {
+        background-color: transparent !important;
+      }
     }
-  }
-  .block-word-content-example-subject {
-    font-weight: 550;
+    .block-word-content-example-subject {
+      font-weight: 550;
+    }
   }
 }
