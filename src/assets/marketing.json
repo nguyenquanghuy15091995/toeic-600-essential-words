@@ -1,0 +1,161 @@
+{
+  "lessonId": 2,
+  "words": [
+    {
+      "id": 1,
+      "label": "attract",
+      "phonetic": "/ə'trækt/",
+      "type": "v",
+      "description": "to pull someone or something towards them",
+      "example": "The display attracted a number of people at the convention",
+      "translated": {
+        "labels": ["hấp dẫn", "lôi cuốn", "thu hút"],
+        "description": "để kéo ai đó hoặc một cái gì đó về phía họ",
+        "example": "Việc trưng bày đã thu hút được một số người tại hội nghị"
+      }
+    },
+    {
+      "id": 2,
+      "label": "compare",
+      "phonetic": "/kəm'peə/",
+      "type": "v",
+      "description": "to examine people or things to see how they are similar and how they are different",
+      "example": "Once the customer compared the two products, her choice was easy",
+      "translated": {
+        "labels": ["so sánh", "đối chiếu"],
+        "description": "để kiểm tra mọi người hoặc mọi thứ để xem chúng tương tự và khác nhau như thế nào",
+        "example": "Khi mà người khách hàng được so sánh 2 sản phẩm, sự lựa chọn của cô ta sẽ dễ dàng hơn"
+      }
+    },
+    {
+      "id": 3,
+      "label": "competition",
+      "phonetic": "/,kɔmpi'tiʃn/",
+      "type": "n",
+      "description": "a situation in which people or organizations compete with each other for something that not everyone can have",
+      "example": "In the competition for afternoon dinners, Hector's has come out on top",
+      "translated": {
+        "labels": ["sự cạnh tranh", "sự tranh giành", "cuộc thi đấu"],
+        "description": "mmột tình huống mà mọi người hoặc tổ chức cạnh tranh với nhau vì điều gì đó mà không phải ai cũng có thể có",
+        "example": "Trong cuộc thi của các quán ăn chiều, của hàng Hector đã được xếp hạng nhất"
+      }
+    },
+    {
+      "id": 4,
+      "label": "consume",
+      "phonetic": "/,kænse'leiʃn/",
+      "type": "v",
+      "description": "to use something, especially fuel, engery or time",
+      "example": "The printer consumes more toner than the downstairs printer",
+      "translated": {
+        "labels": [ "tiêu thụ", "tiêu dùng"],
+        "description": "sử dụng thứ gì đó, đặc biệt là nhiên liệu, năng lượng hoặc thời gian",
+        "example": "Cái máy in ngốn nhiều ống mực hơn là cái máy in ở dưới nhà"
+      }
+    },
+    {
+      "id": 5,
+      "label": "convince",
+      "phonetic": "/kən'vins/",
+      "type": "v",
+      "description": "to make somebody / yourselft believe that something is true",
+      "example": "He convinced me that he was right",
+      "translated": {
+        "labels": ["Thuyết phục"],
+        "description": "để làm cho ai đó / mình tin rằng điều gì đó là đúng",
+        "example": "Anh ấy đã thuyết phục tôi rằng anh ấy đã đúng"
+      }
+    },
+    {
+      "id": 6,
+      "label": "currently",
+      "phonetic": "/ˈkʌrəntli/",
+      "type": "adv",
+      "description": "at the present time",
+      "example": "Currently, customers are demanding big discounts for bulk orders",
+      "translated": {
+        "labels": ["hiện thời", "hiện nay", "lúc này"],
+        "description": "tại thời điểm hiện tại",
+        "example": "Hiện nay, khách hàng đang đòi hỏi những khoản giảm giá nhiều cho những đơn hàng lớn"
+      }
+    },
+    {
+      "id": 7,
+      "label": "fad",
+      "phonetic": "/fæd/",
+      "type": "n",
+      "description": "something that people are interested in for only a short period of time",
+      "example": "The mini dress was a fad once thought to be finished, but now it is making a comeback",
+      "translated": {
+        "labels": ["mốt nhất thời", "sự thích thú tạm thời"],
+        "description": "thứ mà mọi người quan tâm chỉ trong một khoảng thời gian ngắn",
+        "example": "Váy ngắn là mốt tạm thời mỗi khi ý tưởng bị hết, nhưng hiện giờ nó đang quay trở lại"
+      }
+    },
+    {
+      "id": 8,
+      "label": "inspiration",
+      "phonetic": "/,inspə'reiʃn/",
+      "type": "n",
+      "description": "a thing or person that arouses a feeling",
+      "example": "His work is an inspiration to the marketing department",
+      "translated": {
+        "labels": ["truyền cảm hứng", "gây cảm hứng"],
+        "description": "một điều hay một người làm dấy lên một cảm giác",
+        "example": "Công việc của anh ta là một nguồn cảm hứng cho bộ phận tiếp thị"
+      }
+    },
+    {
+      "id": 9,
+      "label": "market",
+      "phonetic": "/'mɑ:kit/",
+      "type": "v",
+      "description": "to advertise and offer a product for sale",
+      "example": "The market for brightly colored clothing was brisk last year, but it's moving sluggishly this year",
+      "translated": {
+        "labels": [ "thị trường", "chợ", "nơi mua bán sản phẩm"],
+        "description": "để quảng cáo và cung cấp sản phẩm để bán",
+        "example": "Thị trường của trang phục màu sắc sặc sỡ rất phát đạt vào năm ngoái, nhưng nó lại chuyển động uể oải trong năm nay"
+      }
+    },
+    {
+      "id": 10,
+      "label": "persuasion",
+      "phonetic": "/pə'sweiʤn/",
+      "type": "n",
+      "description": "the power to influence, a deep conviction or belief",
+      "example": "The seminar teaches techniques of persuasion to increase sales",
+      "translated": {
+        "labels": [ "sự thuyết phục", "sự làm cho tin"],
+        "description": "sức mạnh ảnh hưởng, niềm tin hay niềm tin sâu sắc",
+        "example": "Hội thảo giảng dạy những kỹ thuật thuyết phục để gia tăng doanh số"
+      }
+    },
+    {
+      "id": 11,
+      "label": "productive",
+      "phonetic": "/prəˈdʌktɪv/",
+      "type": "adj",
+      "description": "high yield",
+      "example": "The unproductive sales meeting brought many staff complaints",
+      "translated": {
+        "labels": ["có hiệu quả", "có năng suất", "có khả năng sản suất", "lợi nhuận"],
+        "description": "năng suất cao",
+        "example": "Hội nghị kinh doanh phi lợi nhuận đã làm cho nhiều nhân viên phàn nàn"
+      }
+    },
+    {
+      "id": 12,
+      "label": "satisfaction",
+      "phonetic": "/,sætis'fækʃn/",
+      "type": "n",
+      "description": "the good feeling that you have when you have achieved something",
+      "example": "Your satisfaction is guaranteed or you'll get your money back",
+      "translated": {
+        "labels": ["sự làm thỏa mãn", "sự hài lòng"],
+        "description": "cảm giác tốt mà bạn có khi bạn đã đạt được điều gì đó",
+        "example": "Sự hài lòng của bạn được bảo đảm, hoặc là bạn sẽ được nhận lại tiền của mình"
+      }
+    }
+  ]
+}
