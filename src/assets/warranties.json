@@ -1,0 +1,161 @@
+{
+  "lessonId": 3,
+  "words": [
+    {
+      "id": 1,
+      "label": "characteristic",
+      "phonetic": "/,kæriktə'ristik/",
+      "type": "adj",
+      "description": "very typical of something or of somebody's character",
+      "example": "One characteristic of the store is that it is slow in mailing refund checks",
+      "translated": {
+        "labels": ["đặc trưng", "đặc điểm", "đặc thù", "cá biệt"],
+        "description": "rất điển hình của một cái gì đó hoặc của nhân vật của ai đó",
+        "example": "Một đặc điểm của cửa hàng là nó chậm chạp trong việc gửi hóa đơn hoàn trả"
+      }
+    },
+    {
+      "id": 2,
+      "label": "consequence",
+      "phonetic": "/'kɔnsikwəns/",
+      "type": "n",
+      "description": "a result of something that has happened",
+      "example": "As a consequence of not having seen a dentist for several years, Lydia had several cavities",
+      "translated": {
+        "labels": ["kết quả", "hậu quả", "hệ quả"],
+        "description": "là kết quả của việc gì đó đã xảy ra",
+        "example": "Là hậu quả của việc không đi khám nha sĩ trong vài năm, Lydia đã bị vài răng sâu rỗng"
+      }
+    },
+    {
+      "id": 3,
+      "label": "consider",
+      "phonetic": "/kən'sidə/",
+      "type": "v",
+      "description": "to think about something carefully",
+      "example": "After considering all the options, Della decided to buy a used car",
+      "translated": {
+        "labels": ["cân nhắc", "suy xét", "suy nghĩ"],
+        "description": "nghĩ về cái gì đó cẩn thận",
+        "example": "Sau khi cân nhắc tất cả sự chọn lựa, Della đã quyết định mua chiếc xe cũ"
+      }
+    },
+    {
+      "id": 4,
+      "label": "cover",
+      "phonetic": "/'kʌvə/",
+      "type": "v",
+      "description": "to provide protection against",
+      "example": "Will my medical insurance cover this surgery?",
+      "translated": {
+        "labels": ["che", "phủ", "trùm", "bọc", "bao gồm"],
+        "description": "để bảo vệ chống lại",
+        "example": "Hợp đồng bảo hiểm y tế của tôi liệu có bao gồm cho ca phẫu thuật này không?"
+      }
+    },
+    {
+      "id": 5,
+      "label": "expiration",
+      "phonetic": "/,ekspaiə'reiʃn/",
+      "type": "n",
+      "description": "an ending of the period of time when an official document can be used",
+      "example": "Have you checked the expriration date on this yogurt?",
+      "translated": {
+        "labels": ["sự mãn hạn", "sự hết hạn", "sự kết thúc"],
+        "description": "một kết thúc của khoảng thời gian khi một tài liệu chính thức có thể được sử dụng",
+        "example": "Anh đã kiểm tra hạn sử dụng của món sữa chua này chưa?"
+      }
+    },
+    {
+      "id": 6,
+      "label": "frequently",
+      "phonetic": "/ˈfriːkwəntli/",
+      "type": "adv",
+      "description": "often",
+      "example": "Appliances frequently come with a one-year warranty",
+      "translated": {
+        "labels": ["thường xuyên", "một cách thường xuyên"],
+        "description": "thường xuyên",
+        "example": "Trang thiết bị thường có bảo hành một năm"
+      }
+    },
+    {
+      "id": 7,
+      "label": "imply",
+      "phonetic": "/im'plai/",
+      "type": "v",
+      "description": "to suggest that something is true without saying so directly",
+      "example": "The guarantee on the Walkman implied that all damages were covered under warranty for one year",
+      "translated": {
+        "labels": ["ngụ ý", "hàm ý", "ẩn ý", "ý nói"],
+        "description": "để gợi ý rằng điều gì đó là đúng mà không nói trực tiếp",
+        "example": "Giấy bảo đảm theo máy nghe nhạc Walkman đã ngụ ý rằng mọi hư hỏng đều được bao gồm trong thời hạn bảo hành là 1 năm"
+      }
+    },
+    {
+      "id": 8,
+      "label": "promise",
+      "phonetic": "/promise/",
+      "type": "v",
+      "description": "to tell somebody that you will definitely do or not do something",
+      "example": "The sales associate promised that our new mattress would arrive by noon on Saturday",
+      "translated": {
+        "labels": ["hứa", "cam đoan"],
+        "description": "để nói với ai đó rằng bạn chắc chắn sẽ làm hoặc không làm điều gì đó",
+        "example": "Người cộng tác kinh doanh hứa rằng tấm nệm mới của chúng ta sẽ đến trước trưa thứ Bảy"
+      }
+    },
+    {
+      "id": 9,
+      "label": "protect",
+      "phonetic": "/protect/",
+      "type": "v",
+      "description": "to make sure that somebody / something is not harmed, injured",
+      "example": "Consumer laws are designed to protect the public against unscrupulous vendors",
+      "translated": {
+        "labels": ["bảo vệ", "bảo hộ", "che chở"],
+        "description": "để đảm bảo rằng ai đó / cái gì đó không bị tổn hại, bị thương",
+        "example": "Luật tiêu dùng được thiết kế để bảo vệ công chúng trước những kẻ bán hàng vô lương tâm"
+      }
+    },
+    {
+      "id": 10,
+      "label": "reputation",
+      "phonetic": "/,repju:'teiʃn/",
+      "type": "n",
+      "description": "the opinion that people have about what somebody/something is like, based on what has happened in the past",
+      "example": "The company knew that the reputation of its products was the most important asset it had",
+      "translated": {
+        "labels": ["danh tiếng", "thanh danh"],
+        "description": "ý kiến mà mọi người có về những gì về ai đó / cái gì đó đang như thế nào, dựa trên những gì đã xảy ra trong quá khứ",
+        "example": "Công ty biết rằng tiếng tăm sản phẩm của họ là thứ tài sản quan trọng nhất mà họ có"
+      }
+    },
+    {
+      "id": 11,
+      "label": "require",
+      "phonetic": "/ri'kwaiə/",
+      "type": "v",
+      "description": "to need something",
+      "example": "The law requires that each item clearly display the warranty information",
+      "translated": {
+        "labels": ["đòi hỏi", "yêu cầu", "cần phải"],
+        "description": "cần thứ gì đó",
+        "example": "Luật pháp yêu cầu mỗi món hàng trình bày rõ ràng thông tin về bảo hành"
+      }
+    },
+    {
+      "id": 12,
+      "label": "variety",
+      "phonetic": "/və'raiəti/",
+      "type": "n",
+      "description": "different sorts of the same thing",
+      "example": "There's a variety of standard terms that you'll find in warranties",
+      "translated": {
+        "labels": ["đa dạng", "nhiều thứ"],
+        "description": "các loại khác nhau của cùng một thứ",
+        "example": "Có nhiều điều khoản tiêu chuẩn mà bạn sẽ thấy ở trong các phiếu bảo hành"
+      }
+    }
+  ]
+}

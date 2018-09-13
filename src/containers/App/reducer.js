@@ -3,13 +3,15 @@ import { mixDataToLessonList } from '../../commons/Functions';
 
 const contractData = require('../../assets/contracts.json');
 const marketingData = require('../../assets/marketing.json');
+const warrantiesData = require('../../assets/warranties.json');
 
 const initState = {
   lessons: mixDataToLessonList(
     [
       contractData,
-      marketingData
-    ], 
+      marketingData,
+      warrantiesData
+    ],
     data.lessons
   ),
 };
